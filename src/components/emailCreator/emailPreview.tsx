@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Skeleton } from "@/components/ui/skeleton";
 import { IEmailSection } from "@/types/createEmailTypes";
-// import { EmailFooter } from "./emailFooter";
 
 interface IEmailPreview {
   sections: IEmailSection[];
@@ -46,9 +45,7 @@ export function EmailPreview({ sections, previewMode }: IEmailPreview) {
           )}
         </div>
       ))}
-      {/* <div className="w-[600px] mx-auto">
-        <EmailFooter />
-      </div> */}
+
     </div>
   );
 }
